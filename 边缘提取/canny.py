@@ -204,7 +204,6 @@ def OTSUthreshold(img):
         if maxV < v:
             maxV = v
             T = i
-    print T
     return T
 
 def __main__():
