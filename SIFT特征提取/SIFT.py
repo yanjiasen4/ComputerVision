@@ -48,7 +48,7 @@ def drawMatches(img1, kp1, img2, kp2, matches):
         # thickness = 1
         # colour blue
         cv2.line(out, (int(x1),int(y1)), (int(x2)+cols1,int(y2)), (255, 0, 0), 1)
-        
+
     # Show the image
     cv2.imshow('Matched Features', out)
     cv2.waitKey(0)
