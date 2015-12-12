@@ -1,0 +1,30 @@
+\documentclass{article}
+    \author{杨铭\\5130379022}
+    \title{Homework - SIFT}
+\usepackage{ctex}
+\usepackage{graphicx}
+\begin{document}
+    \maketitle
+    \section{简述}
+        \paragraph{}主要代码在SIFT.py中，使用python编写，调用了random库在绘制匹配点对及其连线时生成随机颜色，以及opencv的python
+    接口实现对各种格式图像的读取和写入
+    \section{输入格式}
+        \paragraph{}使用opencv的cv2.imread函数读取图片，支持.bmp,.jpg.png等格式
+    \section{实现方式}
+        \paragraph{调用opencv2.4的SIFT及其算法完成对两幅图的特征提取和匹配}
+            \subparagraph{版本说明}由于之前使用的opencv3.0默认没有SIFT模块，我将其版本降为了2.4.10，并且自己实现了相应的drawMatchesKnn方法
+        \section{结果}
+            \paragraph{}
+                \begin{figure}[htbp]
+                    \begin{minipage}[t]{0.5\linewidth}\centering
+                    \includegraphics[width=6cm]{test.png}
+                    \caption{原图}\label{1-a}
+                    \end{minipage}
+                    \begin{minipage}[t]{0.5\linewidth}\centering
+                    \includegraphics[width=6cm]{result.png}
+                    \caption{边缘}\label{1-b}
+                    \end{minipage}
+                \end{figure}
+            \paragraph{分析}
+                算梯度值时使用的差分算子太过简单，导致不同点的梯度相差不够大，在双阈值处理时，我的取阈值方法并不标准，导致一些细节被忽略，而且边缘略显粗糙。不过总体效果比较满意。
+\end{document}

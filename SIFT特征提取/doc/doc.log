@@ -1,7 +1,7 @@
-This is XeTeX, Version 3.1415926-2.3-0.9997.5 (MiKTeX 2.9) (preloaded format=xelatex 2015.9.28)  8 DEC 2015 13:42
+This is XeTeX, Version 3.1415926-2.3-0.9997.5 (MiKTeX 2.9) (preloaded format=xelatex 2015.9.28)  12 DEC 2015 10:53
 entering extended mode
 **doc.tex
-(F:\ComputerVision\边缘提取\doc.tex
+(F:\ComputerVision\SIFT特征提取\doc\doc.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for loaded.
 (D:\CTEX\MiKTeX\tex\latex\base\article.cls
@@ -508,8 +508,8 @@ LaTeX Info: Redefining \ttfamily on input line 903.
 \CTEX@r=\count176
 ))
 (D:\CTEX\MiKTeX\tex\latex\ctex\def\ctex-utf8.def)
-(D:\CTEX\MiKTeX\tex\latex\ctex\cfg\ctex.cfg) (F:\ComputerVision\边缘提取\do
-c.aux)
+(D:\CTEX\MiKTeX\tex\latex\ctex\cfg\ctex.cfg)
+(F:\ComputerVision\SIFT特征提取\doc\doc.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
@@ -528,7 +528,8 @@ LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
 LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 6.
 LaTeX Font Info:    Try loading font information for T3+cmr on input line 6.
- (D:\CTEX\MiKTeX\tex\latex\tipa\t3cmr.fd
+
+(D:\CTEX\MiKTeX\tex\latex\tipa\t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
 LaTeX Font Info:    ... okay on input line 6.
@@ -723,33 +724,29 @@ Requested font "SimSun/ICU:mapping=tex-text;" at 10.0pt
 .................................................
 Requested font "SimHei/ICU:mapping=tex-text;" at 10.0pt
  -> C:/Windows/Fonts/simhei.ttf
+File: test1.png Graphic file (type QTm)
+ <use  "test1.png" >
+File: test2.png Graphic file (type QTm)
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--22
-
+<use  "test2.png" >
+Overfull \hbox (55.12204pt too wide) in paragraph at lines 26--27
+ [][] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--23
-
+File: sift_matches.jpg Graphic file (type QTm)
+<use  "sift_matches.jpg" >
+Overfull \hbox (2.22pt too wide) in paragraph at lines 21--33
+[][] []
  []
 
 [1
 
-]
-File: test.png Graphic file (type QTm)
- <use  "test.png" >
-File: result.png Graphic file (type QTm)
- <use  "result.png" >
-Overfull \hbox (2.22pt too wide) in paragraph at lines 33--41
-[][] [] 
- []
-
-[2] (F:\ComputerVision\边缘提取\doc.aux) ) 
+] [2] (F:\ComputerVision\SIFT特征提取\doc\doc.aux) ) 
 Here is how much of TeX's memory you used:
- 14521 strings out of 430478
- 308145 string characters out of 3191502
- 302217 words of memory out of 3000000
- 17502 multiletter control sequences out of 15000+200000
+ 14515 strings out of 430478
+ 308004 string characters out of 3191502
+ 303210 words of memory out of 3000000
+ 17494 multiletter control sequences out of 15000+200000
  6560 words of font info for 46 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  57i,8n,36p,836b,348s stack positions out of 5000i,500n,10000p,200000b,50000s
