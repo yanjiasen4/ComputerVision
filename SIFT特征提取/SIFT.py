@@ -57,14 +57,14 @@ def drawMatchesKnn(img1, kp1, img2, kp2, matches):
 '''select your input img'''
 #img1 = cv2.imread('test1.png')
 #img2 = cv2.imread('test2.png')
-img1 = cv2.imread('Pic1-1.png')
-img2 = cv2.imread('Pic1-2.png')
-#img1 = cv2.imread('Pic2-1.png')
-#img2 = cv2.imread('Pic2-2.png')
+#img1 = cv2.imread('Pic1-1.png')
+#img2 = cv2.imread('Pic1-2.png')
+img1 = cv2.imread('Pic2-1.png')
+img2 = cv2.imread('Pic2-2.png')
 gray1 = cv2.cvtColor(img1,cv2.COLOR_BGR2GRAY)
 gray2 = cv2.cvtColor(img2,cv2.COLOR_BGR2GRAY)
 
-sift = cv2.SIFT(500,5)
+sift = cv2.SIFT(1500,5)
 cv2.SIFT
 kp1, des1 = sift.detectAndCompute(gray1,None)
 kp2, des2 = sift.detectAndCompute(gray2,None)
