@@ -54,13 +54,18 @@ def drawMatchesKnn(img1, kp1, img2, kp2, matches):
     cv2.destroyWindow('Matched Features')
     return out
 
-img1 = cv2.imread('test1.png')
-img2 = cv2.imread('test2.png')
+'''select your input img'''
+#img1 = cv2.imread('test1.png')
+#img2 = cv2.imread('test2.png')
+img1 = cv2.imread('Pic1-1.png')
+img2 = cv2.imread('Pic1-2.png')
+#img1 = cv2.imread('Pic2-1.png')
+#img2 = cv2.imread('Pic2-2.png')
 gray1 = cv2.cvtColor(img1,cv2.COLOR_BGR2GRAY)
 gray2 = cv2.cvtColor(img2,cv2.COLOR_BGR2GRAY)
 
-sift = cv2.SIFT(150,6)
-
+sift = cv2.SIFT(500,5)
+cv2.SIFT
 kp1, des1 = sift.detectAndCompute(gray1,None)
 kp2, des2 = sift.detectAndCompute(gray2,None)
 
@@ -80,4 +85,4 @@ for m,n in matches:
 img3 = drawMatchesKnn(gray1,kp1,gray2,kp2,good)
 
 # save the result img
-cv2.imwrite('sift_matches.jpg',img3)
+cv2.imwrite('sift_matches_Pic2.jpg',img3)
