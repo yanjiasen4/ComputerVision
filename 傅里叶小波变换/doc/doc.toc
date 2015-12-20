@@ -1,0 +1,15 @@
+\contentsline {section}{\numberline {1}简述}{1}{section.1}
+\contentsline {paragraph}{}{1}{section*.2}
+\contentsline {section}{\numberline {2}傅里叶函数变换}{1}{section.2}
+\contentsline {paragraph}{三角型到复数型}{1}{section*.3}
+\contentsline {subparagraph}{}{1}{section*.4}
+\contentsline {section}{\numberline {3}DFT的实现和使用}{2}{section.3}
+\contentsline {paragraph}{原理分析}{2}{section*.5}
+\contentsline {section}{\numberline {4}小波变换学习}{3}{section.4}
+\contentsline {subsection}{\numberline {4.1}简述}{3}{subsection.4.1}
+\contentsline {paragraph}{简述}{3}{section*.6}
+\contentsline {paragraph}{定义}{3}{section*.7}
+\contentsline {subsection}{\numberline {4.2}Haar变换}{3}{subsection.4.2}
+\contentsline {paragraph}{}{3}{section*.8}
+\contentsline {paragraph}{离散小波变换（DWT）}{4}{section*.9}
+\contentsline {subsection}{\numberline {4.3}与傅里叶变换对比}{4}{subsection.4.3}

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.3-0.9997.5 (MiKTeX 2.9) (preloaded format=xelatex 2015.9.28)  12 DEC 2015 12:41
+This is XeTeX, Version 3.1415926-2.3-0.9997.5 (MiKTeX 2.9) (preloaded format=xelatex 2015.9.28)  16 DEC 2015 20:41
 entering extended mode
 **doc.tex
 (F:\ComputerVision\SIFT特征提取\doc\doc.tex
@@ -509,30 +509,72 @@ LaTeX Info: Redefining \ttfamily on input line 903.
 ))
 (D:\CTEX\MiKTeX\tex\latex\ctex\def\ctex-utf8.def)
 (D:\CTEX\MiKTeX\tex\latex\ctex\cfg\ctex.cfg)
+(D:\CTEX\UserData\tex\latex\listings\listings.sty
+\lst@mode=\count177
+\lst@gtempboxa=\box35
+\lst@token=\toks19
+\lst@length=\count178
+\lst@currlwidth=\dimen146
+\lst@column=\count179
+\lst@pos=\count180
+\lst@lostspace=\dimen147
+\lst@width=\dimen148
+\lst@newlines=\count181
+\lst@lineno=\count182
+\lst@maxwidth=\dimen149
+
+(D:\CTEX\UserData\tex\latex\listings\lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count183
+\lst@skipnumbers=\count184
+\lst@framebox=\box36
+)
+(D:\CTEX\UserData\tex\latex\listings\listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
+(D:\CTEX\UserData\tex\latex\xcolor\xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(D:\CTEX\MiKTeX\tex\latex\00miktex\color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: xetex.def on input line 225.
+LaTeX Info: Redefining \color on input line 702.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
 (F:\ComputerVision\SIFT特征提取\doc\doc.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 6.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 6.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 10.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 10.
 
 (D:\CTEX\MiKTeX\tex\latex\tipa\t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    ... okay on input line 10.
 .................................................
 . fontspec info: "setup-math"
 . 
@@ -540,108 +582,79 @@ LaTeX Font Info:    ... okay on input line 6.
 .................................................
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 6.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 6.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 6.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 6.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 6.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 6.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 6.
-LaTeX Font Info:    Redeclaring math accent \check on input line 6.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 6.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 6.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 6.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 6.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 6.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 6.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 6.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 6.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 6.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 6.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 6.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 6.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 6.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 6.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 6.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 6.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 6.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 10.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 10.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 10.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 10.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 10.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 10.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 10.
+LaTeX Font Info:    Redeclaring math accent \check on input line 10.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 10.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 10.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 10.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 10.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 10.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 10.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 10.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 10.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 10.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 10.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 10.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 10.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 10.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 10.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 10.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 10.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 10.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
-(Font)              `operators' in the math version `normal' on input line 6.
+(Font)              `operators' in the math version `normal' on input line 10.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> EU1/lmr/m/n on input line 6.
+(Font)                  OT1/cmr/m/n --> EU1/lmr/m/n on input line 10.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
-(Font)              `operators' in the math version `bold' on input line 6.
+(Font)              `operators' in the math version `bold' on input line 10.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> EU1/lmr/m/n on input line 6.
+(Font)                  OT1/cmr/bx/n --> EU1/lmr/m/n on input line 10.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  EU1/lmr/m/n --> EU1/lmr/m/n on input line 6.
+(Font)                  EU1/lmr/m/n --> EU1/lmr/m/n on input line 10.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  EU1/lmr/m/n --> EU1/lmr/m/n on input line 6.
+(Font)                  EU1/lmr/m/n --> EU1/lmr/m/n on input line 10.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> EU1/lmr/m/it on input line 6.
+(Font)                  OT1/cmr/m/it --> EU1/lmr/m/it on input line 10.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> EU1/lmr/bx/n on input line 6.
+(Font)                  OT1/cmr/bx/n --> EU1/lmr/bx/n on input line 10.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> EU1/lmss/m/n on input line 6.
+(Font)                  OT1/cmss/m/n --> EU1/lmss/m/n on input line 10.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> EU1/lmtt/m/n on input line 6.
+(Font)                  OT1/cmtt/m/n --> EU1/lmtt/m/n on input line 10.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  EU1/lmr/m/n --> EU1/lmr/bx/n on input line 6.
+(Font)                  EU1/lmr/m/n --> EU1/lmr/bx/n on input line 10.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  EU1/lmr/m/n --> EU1/lmr/bx/n on input line 6.
+(Font)                  EU1/lmr/m/n --> EU1/lmr/bx/n on input line 10.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> EU1/lmr/bx/it on input line 6.
+(Font)                  OT1/cmr/bx/it --> EU1/lmr/bx/it on input line 10.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> EU1/lmss/bx/n on input line 6.
+(Font)                  OT1/cmss/bx/n --> EU1/lmss/bx/n on input line 10.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> EU1/lmtt/bx/n on input line 6.
+(Font)                  OT1/cmtt/m/n --> EU1/lmtt/bx/n on input line 10.
+\c@lstlisting=\count185
 Requested font "[lmroman17-regular]:mapping=tex-text" at 17.28pt
  -> D:/CTEX/MiKTeX/fonts/opentype/public/lm/lmroman17-regular.otf
-Requested font "[lmroman12-regular]:mapping=tex-text" at 12.0pt
- -> D:/CTEX/MiKTeX/fonts/opentype/public/lm/lmroman12-regular.otf
-Requested font "[lmroman8-regular]:mapping=tex-text" at 8.0pt
- -> D:/CTEX/MiKTeX/fonts/opentype/public/lm/lmroman8-regular.otf
-Requested font "[lmroman6-regular]:mapping=tex-text" at 6.0pt
- -> D:/CTEX/MiKTeX/fonts/opentype/public/lm/lmroman6-regular.otf
-Requested font "cmmi12" at 12.0pt
- -> cmmi12
-Requested font "cmmi8" at 8.0pt
- -> cmmi8
-Requested font "cmmi6" at 6.0pt
- -> cmmi6
-Requested font "cmsy10" at 12.0pt
- -> cmsy10
-Requested font "cmsy8" at 8.0pt
- -> cmsy8
-Requested font "cmsy6" at 6.0pt
- -> cmsy6
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 7.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 7.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 7.
-Requested font "cmr12" at 12.0pt
- -> cmr12
-Requested font "cmr8" at 8.0pt
- -> cmr8
-Requested font "cmr6" at 6.0pt
- -> cmr6
-Requested font "SimSun" at 12.0pt
+Requested font "SimSun" at 17.28pt
  -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
-Requested font "SimSun/ICU" at 12.0pt
+Requested font "SimSun/ICU" at 17.28pt
  -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
 .................................................
 . fontspec info: "no-scripts"
 . 
 . Font SimSun does not contain any OpenType `Script' information.
 .................................................
-\g_fontspec_family_SimSun_int=\count177
-Requested font "SimHei/ICU" at 12.0pt
+\g_fontspec_family_SimSun_int=\count186
+Requested font "SimHei/ICU" at 17.28pt
  -> C:/Windows/Fonts/simhei.ttf
-Requested font "[SIMKAI.TTF]/ICU" at 12.0pt
+Requested font "[SIMKAI.TTF]/ICU" at 17.28pt
  -> C:/Windows/Fonts/SIMKAI.TTF
-Requested font "SimHei/I/ICU" at 12.0pt
+Requested font "SimHei/I/ICU" at 17.28pt
  -> C:/Windows/Fonts/simhei.ttf
 .................................................
 . fontspec info: "no-font-shape"
@@ -664,6 +677,55 @@ Requested font "SimHei/I/ICU" at 12.0pt
 . 
 . * 'italic' with NFSS spec.:
 . <->"[SIMKAI.TTF]/ICU:mapping=tex-text;"
+.................................................
+Requested font "SimSun/ICU:mapping=tex-text;" at 17.28pt
+ -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
+Requested font "[lmroman12-regular]:mapping=tex-text" at 12.0pt
+ -> D:/CTEX/MiKTeX/fonts/opentype/public/lm/lmroman12-regular.otf
+Requested font "[lmroman8-regular]:mapping=tex-text" at 8.0pt
+ -> D:/CTEX/MiKTeX/fonts/opentype/public/lm/lmroman8-regular.otf
+Requested font "[lmroman6-regular]:mapping=tex-text" at 6.0pt
+ -> D:/CTEX/MiKTeX/fonts/opentype/public/lm/lmroman6-regular.otf
+Requested font "cmmi12" at 12.0pt
+ -> cmmi12
+Requested font "cmmi8" at 8.0pt
+ -> cmmi8
+Requested font "cmmi6" at 6.0pt
+ -> cmmi6
+Requested font "cmsy10" at 12.0pt
+ -> cmsy10
+Requested font "cmsy8" at 8.0pt
+ -> cmsy8
+Requested font "cmsy6" at 6.0pt
+ -> cmsy6
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 17.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 17.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 17.
+Requested font "cmr12" at 12.0pt
+ -> cmr12
+Requested font "cmr8" at 8.0pt
+ -> cmr8
+Requested font "cmr6" at 6.0pt
+ -> cmr6
+Requested font "SimSun" at 12.0pt
+ -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
+Requested font "SimSun/ICU" at 12.0pt
+ -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font SimSun does not contain any OpenType `Script' information.
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'SimSun(0)' created for font 'SimSun' with options
+. [Ligatures=TeX,BoldFont={SimHei},ItalicFont={[SIMKAI.TTF]}].
+. 
+. This font family consists of the following shapes:
 .................................................
 Requested font "SimSun/ICU:mapping=tex-text;" at 12.0pt
  -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
@@ -707,8 +769,8 @@ Requested font "SimSun/ICU" at 10.0pt
 . 
 . This font family consists of the following shapes:
 .................................................
-Requested font "SimSun/ICU:mapping=tex-text;" at 10.0pt
- -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
+Requested font "SimHei/ICU:mapping=tex-text;" at 10.0pt
+ -> C:/Windows/Fonts/simhei.ttf
 .................................................
 . fontspec info: "no-scripts"
 . 
@@ -722,53 +784,66 @@ Requested font "SimSun/ICU:mapping=tex-text;" at 10.0pt
 . 
 . This font family consists of the following shapes:
 .................................................
-Requested font "SimHei/ICU:mapping=tex-text;" at 10.0pt
+Requested font "SimSun/ICU:mapping=tex-text;" at 10.0pt
+ -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
+Requested font "[lmroman12-bold]:mapping=tex-text" at 12.0pt
+ -> D:/CTEX/MiKTeX/fonts/opentype/public/lm/lmroman12-bold.otf
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font SimSun does not contain any OpenType `Script' information.
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'SimSun(0)' created for font 'SimSun' with options
+. [Ligatures=TeX,BoldFont={SimHei},ItalicFont={[SIMKAI.TTF]}].
+. 
+. This font family consists of the following shapes:
+.................................................
+Requested font "SimHei/ICU:mapping=tex-text;" at 12.0pt
  -> C:/Windows/Fonts/simhei.ttf
-File: test1.png Graphic file (type QTm)
- <use  "test1.png" >
-File: test2.png Graphic file (type QTm)
+ [1
 
-<use  "test2.png" >
-Overfull \hbox (55.12204pt too wide) in paragraph at lines 26--27
-[][] 
+]
+(D:\CTEX\UserData\tex\latex\listings\lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+(D:\CTEX\UserData\tex\latex\listings\lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+)
+Requested font "[lmroman5-regular]:mapping=tex-text" at 5.0pt
+ -> D:/CTEX/MiKTeX/fonts/opentype/public/lm/lmroman5-regular.otf
+ [2]
+Overfull \hbox (3.00354pt too wide) in paragraph at lines 93--94
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-File: sift_matches.jpg Graphic file (type QTm)
-<use  "sift_matches.jpg" >
-Overfull \hbox (2.22pt too wide) in paragraph at lines 21--33
-[][] []
- []
+[3]
 
-File: Pic1-1.png Graphic file (type QTm)
-<use  "Pic1-1.png" >
-File: Pic1-2.png Graphic file (type QTm)
- <use  "Pic1-2.png" >
-File: sift_matches_Pic1.jpg Graphic file (type QTm)
- <use  "sift_matches_Pic1.jpg" >
-Overfull \hbox (2.22pt too wide) in paragraph at lines 35--47
-[][] []
- []
+LaTeX Warning: File `result.jpg' not found on input line 119.
 
-File: Pic2-1.png Graphic file (type QTm)
-<use  "Pic2-1.png" >
-File: Pic2-2.png Graphic file (type QTm)
- <use  "Pic2-2.png" >
-File: sift_matches_Pic2.jpg Graphic file (type QTm)
- <use  "sift_matches_Pic2.jpg" >
-Overfull \hbox (2.22pt too wide) in paragraph at lines 49--61
-[][] []
- []
+! Unable to load picture or PDF file 'result.jpg'.
+<to be read again> 
+                   }
+l.119 ... \includegraphics[width=12cm]{result.jpg}
+                                                  
+? 
+! Emergency stop.
+<to be read again> 
+                   }
+l.119 ... \includegraphics[width=12cm]{result.jpg}
+                                                  
+End of file on the terminal!
 
-[1
-
-] [2] [3] (F:\ComputerVision\SIFT特征提取\doc\doc.aux) ) 
+ 
 Here is how much of TeX's memory you used:
- 14533 strings out of 430478
- 308198 string characters out of 3191502
- 305258 words of memory out of 3000000
- 17506 multiletter control sequences out of 15000+200000
- 6560 words of font info for 46 fonts, out of 3000000 for 9000
+ 16368 strings out of 430478
+ 333480 string characters out of 3191502
+ 380759 words of memory out of 3000000
+ 19323 multiletter control sequences out of 15000+200000
+ 6608 words of font info for 52 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 57i,9n,36p,836b,348s stack positions out of 5000i,500n,10000p,200000b,50000s
-
+ 57i,6n,74p,836b,1544s stack positions out of 5000i,500n,10000p,200000b,50000s
 Output written on doc.pdf (3 pages).

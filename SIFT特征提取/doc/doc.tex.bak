@@ -1,30 +1,30 @@
 \documentclass{article}
-    \author{ÑîÃú\\5130379022}
-    \title{Homework - SIFT}
+    \author{æ¨é“­\\5130379022}
+    \title{é­åœ°å¥‡æ¡Œçƒ - ç¬¬äºŒæ¬¡è¿­ä»£}
 \usepackage{ctex}
 \usepackage{graphicx}
 \begin{document}
     \maketitle
-    \section{¼òÊö}
-        \paragraph{}Ö÷Òª´úÂëÔÚSIFT.pyÖĞ£¬Ê¹ÓÃpython±àĞ´£¬µ÷ÓÃÁËrandom¿âÔÚ»æÖÆÆ¥Åäµã¶Ô¼°ÆäÁ¬ÏßÊ±Éú³ÉËæ»úÑÕÉ«£¬ÒÔ¼°opencvµÄpython
-    ½Ó¿ÚÊµÏÖ¶Ô¸÷ÖÖ¸ñÊ½Í¼ÏñµÄ¶ÁÈ¡ºÍĞ´Èë
-    \section{ÊäÈë¸ñÊ½}
-        \paragraph{}Ê¹ÓÃopencvµÄcv2.imreadº¯Êı¶ÁÈ¡Í¼Æ¬£¬Ö§³Ö.bmp,.jpg.pngµÈ¸ñÊ½
-    \section{ÊµÏÖ·½Ê½}
-        \paragraph{µ÷ÓÃopencv2.4µÄSIFT¼°ÆäËã·¨Íê³É¶ÔÁ½·ùÍ¼µÄÌØÕ÷ÌáÈ¡ºÍÆ¥Åä}
-            \subparagraph{°æ±¾ËµÃ÷}ÓÉÓÚÖ®Ç°Ê¹ÓÃµÄopencv3.0Ä¬ÈÏÃ»ÓĞSIFTÄ£¿é£¬ÎÒ½«Æä°æ±¾½µÎªÁË2.4.10£¬²¢ÇÒ×Ô¼ºÊµÏÖÁËÏàÓ¦µÄdrawMatchesKnn·½·¨
-        \section{½á¹û}
-            \paragraph{}
-                \begin{figure}[htbp]
-                    \begin{minipage}[t]{0.5\linewidth}\centering
-                    \includegraphics[width=6cm]{test.png}
-                    \caption{Ô­Í¼}\label{1-a}
-                    \end{minipage}
-                    \begin{minipage}[t]{0.5\linewidth}\centering
-                    \includegraphics[width=6cm]{result.png}
-                    \caption{±ßÔµ}\label{1-b}
-                    \end{minipage}
-                \end{figure}
-            \paragraph{·ÖÎö}
-                ËãÌİ¶ÈÖµÊ±Ê¹ÓÃµÄ²î·ÖËã×ÓÌ«¹ı¼òµ¥£¬µ¼ÖÂ²»Í¬µãµÄÌİ¶ÈÏà²î²»¹»´ó£¬ÔÚË«ãĞÖµ´¦ÀíÊ±£¬ÎÒµÄÈ¡ãĞÖµ·½·¨²¢²»±ê×¼£¬µ¼ÖÂÒ»Ğ©Ï¸½Ú±»ºöÂÔ£¬¶øÇÒ±ßÔµÂÔÏÔ´Ö²Ú¡£²»¹ı×ÜÌåĞ§¹û±È½ÏÂúÒâ¡£
+    \section{ç®€è¿°}
+        \paragraph{}
+        ä½¿ç”¨openglçš„äºŒç»´å·®å€¼å™¨å®Œæˆäº†
+        \begin{itemize}
+          \item ç”¨å„ç§æ›²çº¿å‡½æ•°è®¾è®¡å¹¶æ„å»ºæ——å¸œæ¨¡å‹
+          \item åœ¨æ——å¸œæ¨¡å‹ä¸ŠåŠ å…¥è‡ªå·±ç‹¬ç‰¹çš„è´´å›¾
+          \item 
+        \end{itemize}
+        \begin{figure}[htbp]
+                \begin{minipage}[t]{0.5\linewidth}\centering
+                \includegraphics[width=6cm]{Pic2-1.png}
+                \caption{åŒ¹é…å›¾}\label{3-a}
+                \end{minipage}
+                \begin{minipage}[t]{0.5\linewidth}\centering
+                \includegraphics[width=6cm]{Pic2-2.png}
+                \caption{åŸå›¾}\label{3-b}
+                \end{minipage}
+                \begin{minipage}[t]{1\linewidth}\centering
+                \includegraphics[width=12cm]{sift_matches_Pic2.jpg}
+                \caption{SIFTç®—æ³•åŒ¹é…:nfeatures=1000,nOctaveLayers=6}\label{3-c}
+                \end{minipage}
+        \end{figure}
 \end{document}
