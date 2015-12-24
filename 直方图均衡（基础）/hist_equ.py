@@ -1,21 +1,22 @@
+#coding=utf-8
 import cv2
 import numpy as np
 
-# Ö±·½Í¼¾ùºâËã·¨
-def histEqu(img): 
+# Ö±ï¿½ï¿½Í¼ï¿½ï¿½ï¿½ï¿½ï¿½ã·¨
+def histEqu(img):
     hist = cv2.calcHist([img],[0],None,[256],[0.0,255.0])
-    cdf = hist.cumsum()  
-    print cdf
+    cdf = hist.cumsum()
     cdf_m = np.ma.masked_equal(cdf,0)
     cdf_m = (cdf_m - cdf_m.min())*255/(cdf_m.max()-cdf_m.min())
     cdf = np.ma.filled(cdf_m,0).astype('uint8')
+    print cdf
     dst = cv2.LUT(img,cdf)
     return dst
 
-# Éú³ÉÍ¼Æ¬Ö±·½Í¼Í¼Æ¬
+# ï¿½ï¿½ï¿½ï¿½Í¼Æ¬Ö±ï¿½ï¿½Í¼Í¼Æ¬
 def histShow(img):
     hist = cv2.calcHist([img],[0],None,[256],[0.0,255.0])
-    minVal, maxVal, minLoc, maxLoc = cv2.minMaxLoc(hist)  
+    minVal, maxVal, minLoc, maxLoc = cv2.minMaxLoc(hist)
     histImg = np.zeros([256,256], np.uint8)
     hpt = int(0.9* 256)
     color = [255,255,255]
@@ -34,7 +35,7 @@ def __main__():
     cv2.imshow("imgHist",histImg)
     cv2.imshow("histDst",histDst)
     cv2.imshow("result",dst)
-    cv2.imwrite("result.png",dst,[int(cv2.IMWRITE_PNG_COMPRESSION), 0]) #±£´æ½á¹ûÍ¼Æ¬
+    cv2.imwrite("result.png",dst,[int(cv2.IMWRITE_PNG_COMPRESSION), 0]) #ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¼Æ¬
     cv2.waitKey(0)
     cv2.destroyAllWindows()
 
