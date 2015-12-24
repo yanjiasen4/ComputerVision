@@ -10,6 +10,7 @@
 * [canny边缘提取](https://github.com/yanjiasen4/ComputerVision/tree/master/%E8%BE%B9%E7%BC%98%E6%8F%90%E5%8F%96)
 * [SIFT特征提取](https://github.com/yanjiasen4/ComputerVision/tree/master/SIFT%E7%89%B9%E5%BE%81%E6%8F%90%E5%8F%96)
 * [傅里叶小波变换](https://github.com/yanjiasen4/ComputerVision/tree/master/%E5%82%85%E9%87%8C%E5%8F%B6%E5%B0%8F%E6%B3%A2%E5%8F%98%E6%8D%A2)
+* [自适应直方图均衡化](https://github.com/yanjiasen4/ComputerVision/tree/master/%E8%87%AA%E9%80%82%E5%BA%94%E7%9B%B4%E6%96%B9%E5%9B%BE%E5%9D%87%E8%A1%A1%EF%BC%88%E9%A2%9D%E5%A4%96%EF%BC%89)
 
 ## 开发环境
 
