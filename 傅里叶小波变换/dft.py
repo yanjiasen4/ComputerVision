@@ -60,7 +60,7 @@ def __main__():
     dft_img = splitComplex(dft2d_img)
 
     dft_shift = np.fft.fftshift(dft_img)
-    dft_ishift = HPF(dft_shift,img)
+    dft_ishift = LPF(dft_shift,img)
     #print dft_ishift
     dft_ishift = np.fft.ifftshift(dft_ishift)
     img_back = cv2.idft(dft_ishift)

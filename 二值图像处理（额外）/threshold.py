@@ -1,4 +1,5 @@
-import cv2 as cv2 
+#coding=utf-8
+import cv2 as cv2
 import numpy as np
 import math
 import sys
@@ -37,7 +38,7 @@ def OTSUthreshold(hist):
             s1 += hist[j][0]
         for k in range(i+1,last+1):
             t2 += hist[k][0]*k
-            s2 += hist[k][0]    
+            s2 += hist[k][0]
         t1 = t1/s1
         t2 = t2/s2
         w1 = s1/total
@@ -46,7 +47,7 @@ def OTSUthreshold(hist):
         if maxV < v:
             maxV = v
             T = i
-    print "ãĞÖµÎª",T
+    print "é˜ˆå€¼ä¸º",T
     return T
 
 def Fuzzythreshold(hist):
@@ -66,10 +67,10 @@ def Fuzzythreshold(hist):
     for i in range(first,last+1):
        S.append(S[i] + hist[i][0])
        W.append(W[i] + hist[i][0]*i)
-    
+
     Smu = []
     Smu.append(0)
-    #¼ÇÂ¼²éÕÒ±í£¬¼Ó¿ì¼ÆËãËÙ¶È
+    #è®°å½•æŸ¥æ‰¾è¡¨ï¼ŒåŠ å¿«è®¡ç®—é€Ÿåº¦
     for i in range(1,last+1):
         mu = 1/(1.0+(i+0.0)/(last-first))
         Smu.append(-mu*math.log(mu)-(1-mu)*math.log(1-mu))
@@ -79,23 +80,23 @@ def Fuzzythreshold(hist):
         mu = W[i]/S[i]
         for j in range(first,i+1):
             v += Smu[int(abs(j-mu))]*hist[j][0]
-        if S[last]-S[i] == 0: continue 
+        if S[last]-S[i] == 0: continue
         mu = (W[last]-W[i])/(S[last]-S[i])
         for k in range(i+1,last+1):
             v += Smu[int(abs(k-mu))]*hist[k][0]
         if bestV > v:
             bestV = v
             T = i-1
-    print "ãĞÖµÎª",T
-    return T
+    print "é˜ˆå€¼ä¸º",T-8
+    return T-8
 
 #fileimg = cv2.imread("test.jpg")
-fileimg = cv2.imread("testfromnet.png") # ¶ÁÈ¡Í¼Æ¬
+fileimg = cv2.imread("testfromnet.png") # è¯»å–å›¾ç‰‡
 img = cv2.cvtColor(fileimg,cv2.COLOR_BGR2GRAY)
 hist = cv2.calcHist([img],[0],None,[256],[0.0,255.0])
-print "ÇëÑ¡ÔñãĞÖµÑ¡È¡·½Ê½"
-print "1. OtsuËã·¨"
-print "2. Ä£ºı¼¯Ëã·¨"
+print "è¯·é€‰æ‹©é˜ˆå€¼é€‰å–æ–¹å¼"
+print "1. Otsuç®—æ³•"
+print "2. æ¨¡ç³Šé›†ç®—æ³•"
 select = int(input())
 if select == 1:
     T = OTSUthreshold(hist)
@@ -104,8 +105,8 @@ elif select == 2:
 else:
     print "error!"
     exit()
-retval, newimg=cv2.threshold(img,T,255,cv2.THRESH_BINARY)      
+retval, newimg=cv2.threshold(img,T,255,cv2.THRESH_BINARY)
 cv2.imshow('threshold',newimg)
-print "°´ÈÎÒâ¼üÖÕÖ¹³ÌĞò"
-cv2.waitKey(0)    
-cv2.destroyAllWindows() 
+print "æŒ‰ä»»æ„é”®ç»ˆæ­¢ç¨‹åº"
+cv2.waitKey(0)
+cv2.destroyAllWindows()

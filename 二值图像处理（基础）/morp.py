@@ -1,3 +1,4 @@
+#coding=utf-8
 import copy
 
 class BinaryMartix(object):
@@ -15,7 +16,6 @@ class BinaryMartix(object):
             self.height += 1
         input.close()
 
-    # -- ¥Ú”°æÿ’Û -- #
     def printMartix(self):
         for i in range(0,self.height):
             for j in range(0,self.width):
@@ -43,7 +43,7 @@ class BinaryMartix(object):
                 if structuring[i][j] != self.martix[y-y_offset+i][x-x_offset+j]: return False
                 else: continue
         return True
-    
+
     def dilation(self,structuring):
         output = copy.deepcopy(self.martix)
         s_width = len(structuring[0])
@@ -64,7 +64,7 @@ class BinaryMartix(object):
             for j in range(s_width/2,self.width-s_width/2):
                 if self.doErosion(j,i,structuring):
                     output[i][j] = 1
-                else:    
+                else:
                    output[i][j] = 0
         return output
 
@@ -83,6 +83,6 @@ def __main__():
     printMartix(bmd.dilation(str_element))
     print ''
     printMartix(bme.erosion(str_element))
-   
- 
+
+
 __main__()

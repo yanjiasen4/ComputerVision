@@ -86,7 +86,7 @@ def edgeFilling(img):
         img[j][length-1] = 255
     return img
 
-# hit-or-miss operation                  
+# hit-or-miss operation
 def homTransform(img,ele):
     height = len(img)
     length = len(img[0])
@@ -132,15 +132,15 @@ def Thinning(img,eleList):
         img = ThinningByEle(img,eleList[i])
         img = edgeFilling(img)
     return img
-                               
+
 fileimg = cv2.imread('potota.jpg')
 img = cv2.cvtColor(fileimg,cv2.COLOR_BGR2GRAY)
 retval, img = cv2.threshold(img, 0, 255, cv2.THRESH_OTSU)
 img = cv2.bitwise_not(img)
 eleList = [ele1,ele2,ele3,ele4,ele5,ele6,ele7,ele8]
 res = Thinning(img,eleList)
-for i in range(20):
+for i in range(2):
     res = Thinning(res,eleList)
 cv2.imshow("result",res)
 cv2.waitKey(0)
-cv2.destroyAllWindows() 
+cv2.destroyAllWindows()
