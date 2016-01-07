@@ -14,7 +14,7 @@ from skimage.exposure import rescale_intensity
 import os
 dir_path = 'hg0005'
 flair_path = 'BRATS_HG0005_FLAIR'
-flair_res_path = 'BRATS_HG0005_FLAIR_GABOR'
+flair_res_path = 'BRATS_HG0005_FLAIR_GABOR_0'
 t1_path = 'BRATS_HG0005_T1'
 t1_res_path = 'BRATS_HG0005_T1_GABOR'
 t1c_path = 'BRATS_HG0005_T1C'
